@@ -531,7 +531,7 @@ export default function App() {
                 <p className="text-sm text-[#525252] leading-relaxed mb-6">
                   Each team member must register individually. Click below to open the official MS Forms registration — fill in your details and you're in.
                 </p>
-                <a href="#register" className="carbon-btn carbon-btn-primary w-full justify-center py-4 text-sm">
+                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6RoZrJkJ17tPrV1hZp-SLuJUQTNVSUxKOVVLVE03QjdRTUFYN01CSkVaRy4u" className="carbon-btn carbon-btn-primary w-full justify-center py-4 text-sm">
                   Register for WINTER26 Season
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8.5 1L15 8l-6.5 7v-4.5H1v-5h7.5V1z"/></svg>
                 </a>
