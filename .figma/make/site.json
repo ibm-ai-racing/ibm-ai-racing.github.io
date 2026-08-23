@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a student programming competition for creating self-driving Formula cars in Python with TORCS, offering info, registration, and resources.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
