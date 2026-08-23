@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Serif:wght@300;400;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-ibm-blue: #0F62FE;
+  --color-ibm-sky: #1192E8;
+  --color-ibm-cyan: #33B1FF;
+  --color-ibm-black: #161616;
+  --color-ibm-gray: #F4F4F4;
+  --color-ibm-gray-10: #F4F4F4;
+  --color-ibm-gray-20: #E0E0E0;
+  --color-ibm-gray-50: #8D8D8D;
+  --color-ibm-gray-70: #525252;
+  --color-ibm-gray-90: #262626;
+
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-serif: 'IBM Plex Serif', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #161616;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #525252; }
+::-webkit-scrollbar-thumb:hover { background: #0F62FE; }
+
+.carbon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  cursor: pointer;
+  transition: background 110ms ease, color 110ms ease;
+  border: none;
+  outline: none;
+}
+
+.carbon-btn-primary {
+  background: #0F62FE;
+  color: #ffffff;
+}
+.carbon-btn-primary:hover { background: #0353e9; }
+
+.carbon-btn-secondary {
+  background: transparent;
+  color: #0F62FE;
+  border: 1px solid #0F62FE;
+}
+.carbon-btn-secondary:hover { background: rgba(15,98,254,0.06); }
+
+.carbon-btn-ghost {
+  background: transparent;
+  color: #161616;
+  border: 1px solid #E0E0E0;
+}
+.carbon-btn-ghost:hover { background: #F4F4F4; }
+
+.section-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #0F62FE;
+}
+
+.rule-blue {
+  width: 40px;
+  height: 2px;
+  background: #0F62FE;
+  display: block;
+}
+
+.step-number {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 64px;
+  font-weight: 600;
+  color: #E0E0E0;
+  line-height: 1;
+  letter-spacing: -2px;
+}
