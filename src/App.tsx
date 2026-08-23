@@ -536,7 +536,7 @@ export default function App() {
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8.5 1L15 8l-6.5 7v-4.5H1v-5h7.5V1z"/></svg>
                 </a>
                 <p className="text-xs text-[#8D8D8D] text-center mt-3">
-                  Registration deadline: October 15, 2026. Free of charge.
+                  Registration opens: October 26, 2026. Registration closes: November 25, 2026.
                 </p>
               </div>
 
