@@ -464,7 +464,7 @@ export default function App() {
             </div>
             <div className="relative bg-[#161616] overflow-hidden min-h-[260px]">
               <img
-                src="{cupPhoto}
+                src={cupPhoto}
                 alt="Students collaborating on AI racing project"
                 className="w-full h-full object-cover opacity-60"
               />
