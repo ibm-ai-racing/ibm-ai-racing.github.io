@@ -10,6 +10,8 @@ import aiSkillsIcon from '@/imports/AI-enabled-EDT.svg'
 import collaborateIcon from '@/imports/collaborate.svg'
 import engineeringIcon from '@/imports/ibm--engineering-lifecycle-mgmt.svg'
 import helpDeskIcon from '@/imports/help-desk.svg'
+import cupPhoto from '@/imports/cup.jpeg'
+import ibmLogoSvg from '@/imports/IBM_logo.svg'
 
 const NAV_LINKS = [
   { label: 'Competition', href: '#competition' },
@@ -462,7 +464,7 @@ export default function App() {
             </div>
             <div className="relative bg-[#161616] overflow-hidden min-h-[260px]">
               <img
-                src="src/imports/cup.jpeg"
+                src="{cupPhoto}
                 alt="Students collaborating on AI racing project"
                 className="w-full h-full object-cover opacity-60"
               />
@@ -514,7 +516,7 @@ export default function App() {
                 <span className="text-[#525252] text-xs font-mono tracking-wider uppercase">Organized by</span>
                 <div className="mt-3 flex items-center gap-4">
                   <img
-                    src="src/imports/IBM_logo.svg"
+                    src={ibmLogoSvg}
                     alt="IBM AI Racing League"
                     className="h-6 w-auto"
                     style={{ maxWidth: 180, filter: 'brightness(10)' }}
@@ -606,7 +608,7 @@ export default function App() {
           <div className="flex justify-between gap-8 pb-12 border-b border-[#262626]">
             <div>
               <img
-                src="src/imports/IBM_logo.svg"
+                src={ibmLogoSvg}
                 alt="IBM AI Racing League"
                 className="h-8 w-auto mb-4"
                 style={{ maxWidth: 220, filter: 'brightness(10)' }}
