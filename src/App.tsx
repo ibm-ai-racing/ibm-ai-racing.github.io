@@ -133,7 +133,7 @@ export default function App() {
       >
         <div className="max-w-[1312px] mx-auto px-6 lg:px-16 h-12 flex items-center justify-between">
           <a href="#" className="flex items-center">
-            <img src={ibmLogo} alt="IBM" className="h-8 w-auto" style={{ maxWidth: 100 }} />
+            <img src={ibmLogo} alt="IBM" className="h-6 w-auto" style={{ maxWidth: 100 }} />
           </a>
 
           <nav className="hidden lg:flex items-center gap-0">
