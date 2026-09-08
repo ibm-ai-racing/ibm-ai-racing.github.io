@@ -633,11 +633,6 @@ export default function App() {
             <span className="text-[#525252] text-xs font-mono">
               © 2026 IBM Corporation. AI Racing League is an IBM initiative.
             </span>
-            <div className="flex gap-6">
-              {['Privacy', 'Terms', 'Accessibility', 'Contact'].map((l) => (
-                <a key={l} href="#" className="text-[#525252] text-xs hover:text-[#33B1FF] transition-colors">{l}</a>
-              ))}
-            </div>
           </div>
         </div>
       </footer>
