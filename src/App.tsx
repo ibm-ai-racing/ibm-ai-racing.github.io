@@ -768,7 +768,7 @@ export default function App() {
                   and you're in.
                 </p>
                 <a
-                  href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6RoZrJkJ17tPrV1hZp-SLuJUQTNVSUxKOVVLVE03QjdRTUFYN01CSkVaRy4u"
+                  href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6RoZrJkJ17tPrV1hZp-SLuJUNE8wM1ZJNFBHODRPMUU1RkxaOTVMOTVVOC4u"
                   className="carbon-btn carbon-btn-primary w-full justify-center py-4 text-sm"
                 >
                   Register for WINTER26 Season
