@@ -96,7 +96,7 @@ const RESOURCES = [
     tag: "Racing environment",
     title: "TORCS",
     desc: "TORCS racing simulator to test-drive your AI F1 pilot. Available as installation files or as isolated container with everything baked in.",
-    href: "#",
+    href: "https://github.com/ibm-ai-racing/racing-league",
   },
   {
     tag: "Community & help",
@@ -899,7 +899,7 @@ export default function App() {
                 ].map((l) => (
                   <li key={l}>
                     <a
-                      href="https://ibm.ent.box.com/s/lagf6kj8769pkw2x4cn8kwd7a4gw6c4x"
+                      href="https://github.com/ibm-ai-racing/racing-league/blob/main/docs/IBM_AI_Racing_League_Terms_Conditions_v2.pdf"
                       className="text-[#8D8D8D] text-sm hover:text-[#33B1FF] transition-colors"
                     >
                       {l}
