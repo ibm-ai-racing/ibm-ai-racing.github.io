@@ -107,11 +107,10 @@ const RESOURCES = [
 ]
 
 const TIMELINE = [
-  { date: "Oct 26, 2026", label: "Registration Opens" },
-  { date: "Nov 30, 2026", label: "Submission Deadline" },
-  { date: "Dec 1–31, 2026", label: "Time Trials" },
-  { date: "Jan 20, 2026", label: "Semifinals" },
-  { date: "Jan 21, 2026", label: "Finals" },
+  { date: "Nov 2, 2026", label: "Registration Opens" },
+  { date: "Dec 31, 2026", label: "Submission Deadline" },
+  { date: "Jan 1-25, 2027", label: "Time Trials" },
+  { date: "Jan 29, 2027", label: "Semifinals & Grand Final" },
 ]
 
 export default function App() {
@@ -782,8 +781,8 @@ export default function App() {
                   </svg>
                 </a>
                 <p className="text-xs text-[#8D8D8D] text-center mt-3">
-                  Registration opens: October 26, 2026. Registration closes:
-                  November 25, 2026.
+                  Registration opens: November 2, 2026. Registration closes:
+                  December 31, 2026.
                 </p>
               </div>
 
